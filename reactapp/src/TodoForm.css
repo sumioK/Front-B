@@ -1,0 +1,19 @@
+.form-container{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.input_area{
+  height: 24px;
+  width: 240px;
+  border:1.5px solid navy;
+}
+.input_button{
+  height: 30px;
+  width: 48px;
+  color: white;
+  background-color: navy;
+  border-radius: 0;
+  margin-left: 5px;
+}
