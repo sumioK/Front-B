@@ -9,7 +9,9 @@ const TodoList = ({todos, del}) => {
               <div class="todo-container">
                 <li key={todo.id}>
                   <button class="delete-button" onClick={() => del(todo.id)}>X</button>
-                  {todo.text}
+                  <div class="list-container">
+                  <p>{todo.text}</p>
+                  </div>
                 </li>
               </div>
             )
